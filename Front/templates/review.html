@@ -1,3 +1,14 @@
+<!--
+@Author: Dukecat
+@Date:   2017-02-26T19:09:38-05:00
+@Last modified by:   Dukecat
+@Last modified time: 2017-02-26T20:31:21-05:00
+-->
+
+
+
+
+
 {% extends "base.html" %}
 {% block main_content %}
 <div class="container">
@@ -17,8 +28,8 @@
 			<select name="sort" id="sort" onchange="reload_url(this.value)">
                 <option {% if not sort %} selected {% endif %}> Sort By</option>
 				<option value="sort=-rating" {% if sort=="-rating" %} selected {% endif %}>Highest Rating</option>
-				<option value="sort=-release_date" {% if sort=="-release_date" %} selected {% endif %}>Newest</option>
-				<option value="sort=release_date" {% if sort=="release_date" %} selected {% endif %}>Oldest</option>
+				<option value="sort=-datePublished" {% if sort=="-datePublished" %} selected {% endif %}>Newest</option>
+				<option value="sort=datePublished" {% if sort=="datePublished" %} selected {% endif %}>Oldest</option>
 			</select>
 		</div>
 		<div class="movie-list">

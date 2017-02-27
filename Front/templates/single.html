@@ -1,3 +1,14 @@
+<!--
+@Author: Dukecat
+@Date:   2017-02-26T19:09:38-05:00
+@Last modified by:   Dukecat
+@Last modified time: 2017-02-26T22:18:28-05:00
+-->
+
+
+
+
+
 {% extends "base.html" %}
 {% block main_content %}
 <div class="container">
@@ -23,13 +34,13 @@
 							<div class="star-rating" title="Rated {{movie.rating/2}} out of 5"><span style="width:80%"><strong class="rating">{{movie.rating/2}}</strong> out of 5</span></div>
 						</li>
 						<li><strong>Length:</strong> {{movie.time}} min</li>
-						<li><strong>Premiere:</strong> {{movie.release_date}}</li>
-						<li><strong>Category:</strong> {{movie.genre}}</li>
+						<li><strong>Premiere:</strong> {{movie.datePublished}}</li>
+						<li><strong>Category:</strong> {{movie.genres}}</li>
 					</ul>
 
 					<ul class="starring">
 						<li><strong>Creators:</strong> {{movie.creators}}</li>
-						<li><strong>Stars:</strong> {{movie.cast}}</li>
+						<li><strong>Stars:</strong> {{movie.casts}}</li>
 					</ul>
 				</div>
 			</div> <!-- .row -->
