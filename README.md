@@ -9,7 +9,7 @@ scrapy crawl imdb_spider
 ```
 Secondly, seting up Flask application on the Front folder
 ```
-export FALSK_APP=webmovie.py
+export FLASK_APP=webmovie.py
 ```
 ```
 flask run
