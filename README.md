@@ -18,3 +18,15 @@ Finally, enter the ip in the browser
 ```
 localhost:5000
 ```
+
+
+## Presentation 
+#### Auto-suggestion
+<br><img src="https://github.com/Dukecat0613/Big-Data/blob/master/ImagesSet/Screen%20Shot%202017-02-26%20at%207.49.57%20PM.png"></src>
+
+#### Sort 
+<br><img src ="https://github.com/Dukecat0613/Big-Data/blob/master/ImagesSet/Screen%20Shot%202017-02-26%20at%207.50.16%20PM.png"></src>
+
+
+#### Detail Information 
+<br><img src="https://github.com/Dukecat0613/Big-Data/blob/master/ImagesSet/Screen%20Shot%202017-02-26%20at%2011.12.30%20PM.png"></br>
